@@ -579,6 +579,150 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"bNKaB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _user = require("./modules/user");
+var _userDefault = parcelHelpers.interopDefault(_user);
+"use strict";
+const tableauUser = [];
+async function getAPI() {
+    try {
+        const fetchedAPI = await fetch(`https://randomuser.me/api/?results=20`);
+        const dataAPI = await fetchedAPI.json();
+        console.log(dataAPI);
+        return dataAPI;
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
+}
+getAPI().then((dataAPI)=>{
+    CleanDataAPI(dataAPI);
+}).catch((error)=>{
+    console.error("Error in getAPI:", error);
+});
+function CleanDataAPI(dataAPI) {
+    dataAPI.results.forEach((result)=>{
+        const title = result.name.title;
+        const firstName = result.name.first;
+        const lastName = result.name.last;
+        const city = result.location.city;
+        const country = result.location.country;
+        const age = result.dob.age;
+        const email = result.email;
+        const photo = result.picture.large;
+        const newUser = new (0, _userDefault.default)(title, firstName, lastName, city, country, age, email, photo);
+        tableauUser.push(newUser);
+    });
+    // trie de A-Z
+    tableauUser.sort((a, b)=>{
+        return a.lastName.localeCompare(b.lastName);
+    });
+    tableauUser.forEach((element)=>{
+        element.render();
+    });
+}
+render();
+
+},{"./modules/user":"eT6j8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eT6j8":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class User {
+    #title;
+    #firstName;
+    lastName;
+    #city;
+    #country;
+    age;
+    #email;
+    #photo;
+    #element;
+    #isPresent;
+    #userElement;
+    static compteurPresence = 0;
+    constructor(title, firstName, lastName, city, country, age, email, photo){
+        this.#title = title;
+        this.#firstName = firstName;
+        this.lastName = lastName;
+        this.#city = city;
+        this.#country = country;
+        this.age = age;
+        this.#email = email;
+        this.#photo = photo;
+        this.#isPresent = false;
+        this.#userElement = this.#generateElement();
+        this.#userElement.addEventListener("click", (e)=>{
+            this.#togglePresence(e.currentTarget);
+        });
+    }
+    #generateElement() {
+        //div
+        const containerMain = document.createElement("div");
+        containerMain.classList.add("user");
+        containerMain.dataset.value = this.#isPresent;
+        //Contenu du div
+        const childHTML = `
+            <img src=${this.#photo}>
+            <div class="user--info">
+                    <h1>${this.#title} ${this.#firstName} ${this.lastName}</h1>
+                    <p>${this.age} years old</p>
+                    <p>${this.#city}, ${this.#country}</p>
+            </div>
+            <a href="mailto:${this.#email}">
+                    <span class="mail">\u{2709}\u{FE0F}</span>
+            </a>
+        `;
+        console.log(childHTML);
+        containerMain.insertAdjacentHTML("afterbegin", childHTML);
+        return containerMain;
+    }
+    render() {
+        document.querySelector("main").appendChild(this.#userElement);
+    //return this.#generateElement();
+    }
+    #togglePresence(containerMain) {
+        if (this.#isPresent) {
+            containerMain.dataset.present = false;
+            this.#isPresent = false;
+            User.compteurPresence--;
+        } else {
+            containerMain.dataset.present = true;
+            this.#isPresent = true;
+            User.compteurPresence++;
+        }
+        document.querySelector(".counter").textContent = `${User.compteurPresence}/20 people are here`;
+    }
+}
+exports.default = User;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["3lsJq","bNKaB"], "bNKaB", "parcelRequirec56a")
 
