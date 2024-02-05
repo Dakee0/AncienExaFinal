@@ -596,11 +596,11 @@ async function getAPI() {
     }
 }
 getAPI().then((dataAPI)=>{
-    CleanDataAPI(dataAPI);
+    cleanDataAPI(dataAPI);
 }).catch((error)=>{
     console.error("Error in getAPI:", error);
 });
-function CleanDataAPI(dataAPI) {
+function cleanDataAPI(dataAPI) {
     dataAPI.results.forEach((result)=>{
         const title = result.name.title;
         const firstName = result.name.first;
@@ -620,8 +620,62 @@ function CleanDataAPI(dataAPI) {
     tableauUser.forEach((element)=>{
         element.render();
     });
+    const buttonsortbyname = document.querySelector("#sort--name");
+    const buttonsortbyage = document.querySelector("#sort--age");
+    buttonsortbyname.addEventListener("click", (e)=>{
+        if (!e.target.classList.contains("selected")) {
+            e.target.classList.add("selected");
+            buttonsortbyage.classList.remove("selected");
+            tableauUser.sort((a, b)=>{
+                return a.lastName.localeCompare(b.lastName);
+            });
+            tableauUser.forEach((user)=>{
+                user.render();
+            });
+        } else console.log("Le bouton est d\xe9j\xe0 selected");
+    });
+    buttonsortbyage.addEventListener("click", (e)=>{
+        if (!e.target.classList.contains("selected")) {
+            e.target.classList.add("selected");
+            buttonsortbyname.classList.remove("selected");
+            tableauUser.sort((a, b)=>{
+                return a.age - b.age;
+            });
+            tableauUser.forEach((user)=>{
+                user.render();
+            });
+        } else console.log("Le bouton est d\xe9j\xe0 selected");
+    });
+} /*
+function sort(){
+    console.log("sort est bien appelé");
+    document.querySelector(".filters").addEventListener("click", (event) => {
+        if (!event.target.classList.contains("selected")) {
+          if (event.target.id === "sort--name") {
+            document.querySelector(".selected").classList.remove("selected");
+            event.target.classList.add("selected");
+            tableauUser.sort((a, b) => {
+              return a.lastName.localeCompare(b.lastName);
+            });
+            document.querySelector("main").innerHTML = "";
+            tableauUser.forEach((element) => {
+              element.render();
+            });
+          } else if (event.target.id === "sort--age") {
+            document.querySelector(".selected").classList.remove("selected");
+            event.target.classList.add("selected");
+            tableauUser.sort((a, b) => {
+              return a.age - b.age;
+            });
+            document.querySelector("main").innerHTML = "";
+            tableauUser.forEach((element) => {
+              element.render();
+            });
+          }
+        }
+      });
 }
-render();
+*/ 
 
 },{"./modules/user":"eT6j8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eT6j8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -671,7 +725,7 @@ class User {
                     <span class="mail">\u{2709}\u{FE0F}</span>
             </a>
         `;
-        console.log(childHTML);
+        //console.log(childHTML);
         containerMain.insertAdjacentHTML("afterbegin", childHTML);
         return containerMain;
     }
@@ -689,7 +743,8 @@ class User {
             this.#isPresent = true;
             User.compteurPresence++;
         }
-        document.querySelector(".counter").textContent = `${User.compteurPresence}/20 people are here`;
+        const compteurFinal = document.querySelector(".counter");
+        compteurFinal.textContent = `${User.compteurPresence}/20 people are not here lol`;
     }
 }
 exports.default = User;

@@ -46,7 +46,7 @@ export default class User {
                     <span class="mail">✉️</span>
             </a>
         `
-        console.log(childHTML);
+        //console.log(childHTML);
         containerMain.insertAdjacentHTML("afterbegin", childHTML);
 
         return containerMain;
@@ -67,7 +67,9 @@ export default class User {
             this.#isPresent = true;
             User.compteurPresence++;
         }
-        document.querySelector(".counter").textContent = `${User.compteurPresence}/20 people are here`;
+        const compteurFinal = document.querySelector(".counter");
+        compteurFinal.textContent = `${User.compteurPresence}/20 people are not here lol`;
     }
+
 
 }

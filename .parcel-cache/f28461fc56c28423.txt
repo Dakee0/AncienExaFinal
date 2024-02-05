@@ -1,4 +1,4 @@
-5941
+5945
 122C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\.bin\json5.ps1133515946987324280 0
 125C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@msgpackr-extract133515949258396208 1
 136C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\type-fest\source\except.d.ts133515946970276679 0
@@ -27,7 +27,7 @@
 158C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\reporter-dev-server\src\templates\404.html133515946966594252 0
 145C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\css-tree\lib\tokenizer\TokenStream.js133515946980806827 0
 136C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\electron-to-chromium\LICENSE133515946965511367 0
-99C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist133516044785442194 1
+99C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist133516176810669048 1
 158C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133515946977229502 0
 136C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\htmlnano\lib\presets\max.mjs133515946975886859 0
 105C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\.gitignore133515952339721627 0
@@ -68,7 +68,7 @@
 183C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\common\OffsetToLocation.js133515946976313445 0
 144C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\css-tree\lib\lexer\generic-urange.js133515946978435099 0
 148C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\abortcontroller-polyfill\src\ponyfill.js133515946969481959 0
-105C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\src\app.js133516045008733911 0
+105C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\src\app.js133516175033224117 0
 165C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\package.json133515946965643120 0
 158C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\diagnostic\test\JSONCodeHighlights.test.js133515946967374708 0
 167C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaFeature.cjs133515946975496745 0
@@ -110,7 +110,7 @@
 152C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\caniuse-lite\data\features\form-attribute.js133515946982061296 0
 150C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js133515946966542040 0
 108C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\src\style.css133185474060000000 0
-114C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\src\modules\user.js133516041421307282 0
+114C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\src\modules\user.js133516176810455160 0
 150C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\csso\node_modules\css-tree\dist\version.js133515946980833686 0
 145C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\css-tree\cjs\syntax\node\Function.cjs133515946973676289 0
 116C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\domutils133515946970872438 1
@@ -1362,6 +1362,7 @@
 136C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\workers\lib\child.js133515946968117900 0
 143C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\source-map\dist\source-map.debug.js133515946971510508 0
 157C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\csso\node_modules\css-tree\lib\syntax\node\CDC.js133515946977387334 0
+122C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.51a000a2.css.map133516045595662652 0
 168C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\htmlnano\docs\versioned_sidebars\version-1.1.1-sidebars.json133515946974017803 0
 160C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\react-refresh\cjs\react-refresh-babel.development.js133515946966542040 0
 141C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\source-map\dist\source-map.min.js133515946971989916 0
@@ -3996,6 +3997,7 @@
 145C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\caniuse-lite\data\features\pointer.js133515946984855034 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\caniuse-lite\data\regions\TO.js133515946986053043 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\caniuse-lite\data\regions\TR.js133515946986073040 0
+121C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.253632f2.js.map133516045595662652 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\caniuse-lite\data\regions\TW.js133515946986143040 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\caniuse-lite\data\regions\UA.js133515946986193039 0
 149C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\utils\src\generateBuildMetrics.js133515946971381282 0
@@ -4954,6 +4956,7 @@
 147C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\transformer-babel\src\config.js133515946969161544 0
 150C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\transformer-babel\src\constants.js133515946969569815 0
 145C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\transformer-babel\src\flow.js133515946969932556 0
+118C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.51a000a2.css133516045595602413 0
 146C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\transformer-babel\src\types.js133515946970974131 0
 147C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\transformer-babel\lib\babel7.js133515946965991488 0
 156C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\transformer-babel\lib\babelErrorUtils.js133515946967113691 0
@@ -5050,6 +5053,7 @@
 165C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\runtime-js\lib\helpers\browser\import-polyfill.js133515946971687697 0
 159C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js133515946971902027 0
 165C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\runtime-js\lib\helpers\browser\prefetch-loader.js133515946972921572 0
+117C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.253632f2.js133516045595602413 0
 161C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\runtime-js\lib\helpers\browser\wasm-loader.js133515946973224611 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\runtime-browser-hmr\lib133515946967699513 1
 143C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\@parcel\runtime-browser-hmr\LICENSE133515946965417092 0
@@ -5934,9 +5938,9 @@
 121C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\.bin\svgo.ps1133515946987324280 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\.bin\update-browserslist-db.cmd133515946987324280 0
 139C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\node_modules\.bin\update-browserslist-db.ps1133515946987324280 0
-117C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.0641b553.js133516044785411027 0
-121C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.0641b553.js.map133516044785442194 0
-118C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.2cdaf7bc.css133516043637475175 0
-122C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.2cdaf7bc.css.map133516043637506868 0
-110C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.html133515955924771381 0
+117C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.0641b553.js133516176810641033 0
+121C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.0641b553.js.map133516176810669048 0
+118C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.2cdaf7bc.css133516169298043771 0
+122C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.2cdaf7bc.css.map133516169298082171 0
+110C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\dist\index.html133516169298316667 0
 114C:\Users\monne\OneDrive - HESSO\Documents\HEIG-VD\YEAR 2\ProgWeb\revision-exam\AncienExa-Final\.netlify\state.json133515952507897841 0
